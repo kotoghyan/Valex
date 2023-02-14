@@ -149,6 +149,10 @@
 }
 
 
+#body{
+	visibility: hidden;
+}
+
 body {
 	margin: 0;
 
@@ -2422,14 +2426,12 @@ a.work-name:hover {
 
 .carousel-item.active {
 	display: block;
-    visibility: visible;
     position: static;
 }
 
 .carousel-item.current {    
     left: 0;
     right: 0;
-    visibility: visible;
     z-index: 1;
 }
 
